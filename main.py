@@ -94,7 +94,7 @@ print(text2[8:26:3])
 # Reverses the position of all the characters in the following sentence and displays the result on the screen.
 
 text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
-# print(text3.reverse())
+print(text3[::-1])
 
 # Extract the first word of the following sentence using slicing, and display it on the screen:
 sentence ="Controlling complexity is the essence of programming"
@@ -106,8 +106,8 @@ sentence ="Controlling complexity is the essence of programming"
 # create a text input that asks for choice of food
 # foodChoice = input("what is your choice in food?")
 # #create an empty list variable called food
-# food = []
-# # add 3 items from the user into the empty list
+# fod = []
+# # oadd 3 items from the user into the empty list
 # food.append(foodChoice)
 # food.append(foodChoice)
 # food.append(foodChoice)
