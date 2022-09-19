@@ -16,46 +16,61 @@ print(newSentence.rindex("practice"))
 ###############################################Review############################################################
 #####################################challenge 1################################################################
 # Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
-my_list = ["bay","ddaa", 34, 56]
-
-
+my_list = ["bay","ddaa", 34, 56, 78, 89, 102]
+my_list.append("jewlery")
+print(my_list)
+my_list.pop()
+#pop() removs from the end 
+print(my_list)
+my_list.remove("ddaa")
+#removes an item at a certain index
+print(my_list)
+my_list.insert(3,"bobba bobba")
+print(my_list)
+my_list2 = ["july","terrence","jugga","star treck"]
+my_list3 = (my_list + my_list2) 
+print(my_list3)
 # Add the element "motorcycle" to the following list of means of transportation:
 
-# transportation_means = ["plane", "car", "ship", "bicycle"]
-# transportation_means.append("motorcycle")
+transportation_means = ["plane", "car", "ship", "bicycle"]
+transportation_means.append("motorcycle")
 # #append adds an element to the end
-# print(transportation_means)
-# transportation_means.remove("car")
-# print(transportation_means)
-# newTrans = transportation_means.pop()
+print(transportation_means)
+transportation_means.remove("car")
+print(transportation_means)
+newTrans = transportation_means.pop()
 # #pop removes the last element
-# print("my new trans is " +newTrans)
-# transportation_means.insert(1,"tesla")
-# print(transportation_means)
+print("my new trans is " +newTrans)
+transportation_means.insert(1,"tesla")
+print(transportation_means)
 # You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
 
 # here are two lists:
 luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
+
 # instructions:
 ######join both lists together in a new list
-
+new_list = luckyNumbers + friends
 ###### print the new list out
-#print(newlist2)
+print(new_list)
 ###### print out the first item in the list
-
+print(new_list[0])
 ###### remove the last item of the new list
-
+print(new_list[-1])
 ###### print the new list out without the last item
-
+new_list.pop()
+print(new_list)
 ###### add three more items to the end of the list
-
+new_list.append("Omar")
+new_list.append("Lorenzo")
+new_list.append("Yeat")
 ###### print the last item in the new list
+print(new_list[-1])
 
-###### sort the list
 
 ###### find a way to insert a new item at the 3rd position of the list
-
+new_list.insert(3,"Yes")
 ###### print the new list out
 
 ##### reverse the list
